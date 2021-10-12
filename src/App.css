@@ -1,7 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif!important;
+}
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: whitesmoke;
 }
-.dropdown-menu {
-  height: 50vh;
-  overflow-y: scroll;
+.navbar {
+  background: white;
+  margin-bottom: 60px;
 }
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 6px;
+}
+.espais-selector-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.select-container {
+  display: flex;
+}
+.select-container .add-input {
+  background: #00d080;
+  border-radius: 0 6px 6px 0;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+}
+.select-container select {
+  border-radius: 6px 0 0 6px;
+}
+.select-container select:focus {
+  border-color: #00d080;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(0 208 128 / 25%);
+}
+.form-control:focus {
+  border-color: #00d080!important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(0 208 128 / 25%)!important;
+}
+select.decorated option:hover {
+  box-shadow: 0 0 10px 100px #2c3133 inset;
+}
+.form-container label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-container .icon-select {
+  height: 50px;
+  width: auto;
+  margin: 10px;
+}
+.question-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.question-text {
+  color: rgb(66, 66, 66);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.list-container {
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: flex-start;
+}
+.list-container .items-container {
+  width: 100%;
+}
+.list-container .items-container .item {
+  background: #00d080;
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 5px;
+  color: black;
+  border-radius: 6px;
+}
+.list-container .list-title {
+  margin-top: 6px;
+  color: grey;
+}
+.background-smoke {
+  background: whitesmoke;
+}
+.input-button {
+  background-color: #00d080!important;
+  border-radius: 0 6px 6px 0!important;
+  border: none!important;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+}
+.explanation-text {
+  color: rgb(167, 167, 167);
+}
+.explanation-text .hightlight {
+  color:#00d080;
+}
+.main-image-container img {
+  height: 420px;
+}
+.img-vignette {
+  height: 200px;
+}
+.mesure-container {
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 6px;
+}
+
+
+
+

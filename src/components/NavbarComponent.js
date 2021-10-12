@@ -1,14 +1,24 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../css/nav.css'
 
 
 export default function NavbarComponent() {
     return (
-        <div>
-            <Navbar bg="light" expand="lg">
+        <div className="nav-container">
+            <Navbar className="nav-bar-style" expand="lg">
             <Container>
-                <Navbar.Brand href="/">Sinergetik</Navbar.Brand>
+                <Navbar.Brand href="/">
+                <img
+                alt=""
+                src="/logo.png"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                />{' '}
+                <strong>Sinergetik</strong>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">

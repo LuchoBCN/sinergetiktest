@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Nom from '../pages/Nom'
 import Ubicacio from '../pages/Ubicacio'
@@ -12,9 +12,13 @@ import Semaforperespais from '../pages/Semaforperespais'
 import Landing from '../pages/Landing'
 import PageNoyFound from '../pages/PageNoyFound'
 import NavbarComponent from '../components/NavbarComponent'
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
+import { UserContext } from '../context/UserContext'
+
 export default function AppRouter() {
+    const [value, setValue] = useState("Otro valor");
+
     return (
+        <UserContext.Provider value={{value, setValue}}>
         <div>
             <Router>
                 <NavbarComponent />
@@ -25,9 +29,9 @@ export default function AppRouter() {
                     <Route path="/ubicacio">
                         <Ubicacio></Ubicacio>
                     </Route>
-                    <Route path="/tipus">
-                        <Tipus></Tipus>
-                    </Route>
+                        <Route path="/tipus">
+                            <Tipus></Tipus>
+                        </Route>
                     <Route path="/composicio">
                         <Composicio></Composicio>
                     </Route>
@@ -52,8 +56,10 @@ export default function AppRouter() {
                     <Route path="*">
                         <PageNoyFound></PageNoyFound>
                     </Route>
+
                 </Switch>
             </Router>
         </div>
+        </UserContext.Provider>
     )
 }
