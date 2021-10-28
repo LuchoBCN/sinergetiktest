@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/sinergetiktest/static/css/main.1e7c7d97.chunk.css",
+    "main.js": "/sinergetiktest/static/js/main.302120a3.chunk.js",
+    "main.js.map": "/sinergetiktest/static/js/main.302120a3.chunk.js.map",
+    "runtime-main.js": "/sinergetiktest/static/js/runtime-main.2e31602f.js",
+    "runtime-main.js.map": "/sinergetiktest/static/js/runtime-main.2e31602f.js.map",
+    "static/css/2.c1256375.chunk.css": "/sinergetiktest/static/css/2.c1256375.chunk.css",
+    "static/js/2.1ecb095b.chunk.js": "/sinergetiktest/static/js/2.1ecb095b.chunk.js",
+    "static/js/2.1ecb095b.chunk.js.map": "/sinergetiktest/static/js/2.1ecb095b.chunk.js.map",
+    "static/js/3.a908efb0.chunk.js": "/sinergetiktest/static/js/3.a908efb0.chunk.js",
+    "static/js/3.a908efb0.chunk.js.map": "/sinergetiktest/static/js/3.a908efb0.chunk.js.map",
+    "index.html": "/sinergetiktest/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/sinergetiktest/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.1e7c7d97.chunk.css.map": "/sinergetiktest/static/css/main.1e7c7d97.chunk.css.map",
+    "static/js/2.1ecb095b.chunk.js.LICENSE.txt": "/sinergetiktest/static/js/2.1ecb095b.chunk.js.LICENSE.txt",
+    "static/media/analisis.34d9aa64.png": "/sinergetiktest/static/media/analisis.34d9aa64.png",
+    "static/media/biblioteca.bfaedece.png": "/sinergetiktest/static/media/biblioteca.bfaedece.png",
+    "static/media/campo-deportivo.2156fd97.png": "/sinergetiktest/static/media/campo-deportivo.2156fd97.png",
+    "static/media/co2.ae131085.png": "/sinergetiktest/static/media/co2.ae131085.png",
+    "static/media/cocina.c4c9a625.png": "/sinergetiktest/static/media/cocina.c4c9a625.png",
+    "static/media/all.min.css": "/sinergetiktest/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/humedad.e1ebb62f.png": "/sinergetiktest/static/media/humedad.e1ebb62f.png",
+    "static/media/jardin.cd0683e5.png": "/sinergetiktest/static/media/jardin.cd0683e5.png",
+    "static/media/logo.4c5cc190.png": "/sinergetiktest/static/media/logo.4c5cc190.png",
+    "static/media/nom-vignette.5ecb9094.png": "/sinergetiktest/static/media/nom-vignette.5ecb9094.png",
+    "static/media/temperatura-alta.186d2e22.png": "/sinergetiktest/static/media/temperatura-alta.186d2e22.png",
+    "static/media/town.7842cfd4.png": "/sinergetiktest/static/media/town.7842cfd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e31602f.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.1ecb095b.chunk.js",
+    "static/css/main.1e7c7d97.chunk.css",
+    "static/js/main.302120a3.chunk.js"
+  ]
+}
