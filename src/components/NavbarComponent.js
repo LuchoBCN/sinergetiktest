@@ -32,8 +32,8 @@ export default function NavbarComponent() {
                     <Nav.Link href="/composicio">Composició</Nav.Link>
                     <NavDropdown title="Analisis" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/humitat">Humitat</NavDropdown.Item>
-                    <NavDropdown.Item href="/soroll">Soroll</NavDropdown.Item>
-                    <NavDropdown.Item href="/luminocitat">Luminocitat</NavDropdown.Item>
+                    <NavDropdown.Item href="/temperatura">Temperatura</NavDropdown.Item>
+                    <NavDropdown.Item href="/aire">Qualitat de l'aire</NavDropdown.Item>
                     {/* <NavDropdown.Divider /> */}
                     {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                     </NavDropdown>

@@ -1,29 +1,25 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
+import MesureHumitat from '../components/MesureHumitat'
+import { Button } from 'react-bootstrap'
+import imgHumitat from "../img/humedad.png"
+
 
 export default function Humitat() {
     return (
-        <div>
-            <h1>Anem a mesurar la humedat</h1>
-            <div className="mesure-grid-container">
-                <div className="mesure-container">
-                    <h3>Cuina</h3>
-                    <Form>
-                        <Form.Label>Temperatura</Form.Label>
-                        <Form.Range min="0" max="100" step="0.01"/>
-                    </Form>
-                    <Form>
-                        <Form.Label>Humitat</Form.Label>
-                        <Form.Range />
-                    </Form>
-                    <Form>
-                        <Form.Label>Soroll</Form.Label>
-                        <Form.Range />
-                    </Form>
-                    <Button variant="primary" type="submit">Guardar</Button>
-                </div>
-
-            </div>
+        <>
+        <h1>Anem a mesurar la humitat<img className="title-icon" src={imgHumitat} /></h1>
+        <div className="mesure-grid-container">
+            <MesureHumitat text="Cuina" ></MesureHumitat>
+            <MesureHumitat text="Menjador" ></MesureHumitat>
+            <MesureHumitat text="Passadís" ></MesureHumitat>
+            <MesureHumitat text="Jardí" ></MesureHumitat>
+            <MesureHumitat text="Escales" ></MesureHumitat>
+            <MesureHumitat text="Porteria" ></MesureHumitat>
+            <MesureHumitat text="Aula" ></MesureHumitat>
+            <MesureHumitat text="Gymnàs" ></MesureHumitat>
         </div>
+        <Button className="general-button" variant="primary" type="submit">Guardar</Button>
+
+        </>
     )
 }
